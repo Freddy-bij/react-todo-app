@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar'
 import Add from './Pages/Add'
 import Home from './Pages/Home'
 import Todo from './Pages/Todo'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -22,10 +23,10 @@ const App = () => {
     <Todo name ='towel' text='to i will clearning my house with  towel'/>
     <Todo name ='squeegee' text='to i will clearning my house with squeegee'/>
     <Todo name ='Dust' text='to i will clearning my house with dust'/>
-   </div>}/>
+   </div>} />
     </Routes>
     </BrowserRouter>
-
+   <Footer/> 
     </>
   )
 }
